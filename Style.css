@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    color: darkgoldenrod;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.83;
+    background-image: linear-gradient(cyan 30%, lime 70%);
+    text-align: center;
+}
+
+.menu {
+   font-family: 'Do Hyeon', sans-serif;
+    position: fixed;
+    top: 10px;
+    z-index: 10;
+    background-color:blue;
+    background:red;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+   z-index: 10; 
+    
+}
+
+.link {
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: monospace;
+    font-size: 20px;
+    position: fixed;
+    background-color: chartreuse;
+      display: inline;
+}
+
+#bio {
+    background-image: linear-gradient(cyan,blue);
+    font-size: 42px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+h1 {
+    font-family: cursive;
+color: cyan;
+    font-size: 50px;
+    background-color: blueviolet;
+}
+.link:hover {
+    font-size: 25px;
+    text-decoration:underline;
+}
